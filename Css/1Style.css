@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.card, .card2, .menu-medium, .product, .product2 {
+    color: transparent;
+}
+.main-header {
+    background-color: #dddddd;
+    display: flex;
+    margin: 2rem;
+    border-radius: 0.2rem;
+    padding: 4rem;
+}
+.main-nav {
+    display: flex;
+    margin: 0 2rem 0 auto;
+}
+.main-nav-list {
+    display: flex;
+    align-items: center;
+    font-size: 2em;
+    gap: 3rem;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+a:hover {
+    color: #00cccc;
+    border-bottom: 3px solid #00cccc;
+}
